@@ -1,0 +1,152 @@
+
+/* Body */
+body {
+    margin: 0;
+    background-image: url(../img/background.jpg);
+}
+
+/* Header */
+.header {
+    max-width: 1240px;
+    margin: auto;
+    
+    box-shadow: 0px 0px 15px #2828289d;
+}
+.header_img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* About Me */
+.about_me {
+    background-color: white;
+    max-width: 1110px;
+    margin: auto;
+    padding: 65px;
+    display: grid;
+    grid-template-columns: 1fr 1.62fr;
+    gap: 2rem;
+    box-shadow: 0px 0px 15px #2828289d;
+
+}
+.yan_sheredega {
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.about_me_text {
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    color: #282828;
+    text-align: left;
+}
+
+@keyframes opacity {
+    from {letter-spacing: 3rem;}
+    to {letter-spacing: normal;}
+}
+h2 {
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    animation-name: opacity;
+    animation-duration: 0.5s;
+}
+.opacity {
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0.6;
+    animation-name: opacity;
+    animation-duration: 0.5s;
+    margin-bottom: 3em;    
+}
+.justify {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-justify: distribute;
+    overflow: auto;
+}
+
+/* Gallery */
+.gallery {
+    max-width: 1240px;
+    height: auto;
+    margin: auto;
+    border-style: solid none solid none;
+    border-width: 10px;
+    border-color: #282828;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.3rem;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px #2828289d;
+    background-color: white;
+}
+.gallery_window {
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+}
+
+/*Skills*/
+.Skills {
+    background-color: white;
+    max-width: 940px;
+    margin: auto;
+    padding: 65px 150px 65px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    box-shadow: 0px 0px 15px #2828289d;
+}
+.Skills_header {
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0.6;
+    animation-name: opacity;
+    animation-duration: 0.5s;
+    margin-bottom: 1em;
+}
+.Skills_text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    overflow: auto;
+    margin-block-start: 0%;
+    padding-inline-start: 0%;
+}
+
+/* Footer */
+footer {
+    max-width: 1240px;
+    margin: auto;
+    background-color: #282828;
+    padding: 40px 0 40px 0;
+    text-align: center;
+    box-shadow: 0px 0px 15px #2828289d;
+}
+.icons {
+    color: whitesmoke;
+    font-family: 'Font Awesome 5';
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.sign_off {
+    color: whitesmoke;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: normal;
+}
+.mailto {
+    color: whitesmoke;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 12px;
+}
